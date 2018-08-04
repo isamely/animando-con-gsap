@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Animacion css con greensock</title>
+	<style>
+		body{
+			margin: 0;
+			background-color: #333;
+		}
+		iframe{
+			width: 100%;
+			height: 100vh;
+			border: none;
+		}
+	</style>
+</head>
+<body>
+	<button id="pausar">Reproducir</button>
+	<iframe src="escena.svg" id="ilustracion"></iframe>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.1/TweenMax.min.js"></script>
+	<script src="animacion.js"></script>
+	<!-- 
+	se recomienda enlazar como archivo externo  y se obtiene con js
+	animacion tween es una animación simple
+	tween.to: hacia donde queremos que vaya
+	tween.from: movete desde x posición
+	"   .set: setea el estado ANTES de la animacion
+	TimelineLite: encadena animaciones
+
+	los elementos ID html, por default ya son variables declaradas en js por lo que no es obligatorio declararlas
+
+	Sara Drasner,complex responsive animations
+	-->
+	
+</body>
+</html>
